@@ -6,4 +6,4 @@ program: $(OBJECT)
 $(OBJECT): $(SOURCE)
 	g++ -c $<
 clean:
-	rm -rf *.o *.out
+	rm -rf *.o program

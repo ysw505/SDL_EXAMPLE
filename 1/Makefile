@@ -5,4 +5,4 @@ program: source.o
 source.o: source.cpp
 	g++ -c $<
 clean:
-	rm -rf *.o *.out
+	rm -rf *.o program
